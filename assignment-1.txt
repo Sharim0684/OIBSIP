@@ -1,0 +1,192 @@
+Q1-
+
+    #include<stdio.h>
+    int main()
+    {
+      printf("Hello Student");
+      return 0;
+    }
+
+---> 
+    OUTPUT=Hello Student
+--------------------------------------------------------------------------------------------------------
+Q2-
+
+    #include<stdio.h>
+    int main()
+    {
+       printf("Hello\nStudent");
+       return 0;
+    }
+
+---->
+     OUTPUT=Hello
+            Student
+--------------------------------------------------------------------------------------------------------
+Q3-
+
+    #include<stdio.h>
+    int main()
+    {
+      printf("\"MysirG\"");
+      return 0;
+    }
+   
+---->
+     OUTPUT="MysirG"
+--------------------------------------------------------------------------------------------------------
+Q4-
+  
+     #include <stdio.h>
+     int main()
+     {
+       float radius,area;
+       printf("Enter radius of circle\n");
+       scanf("%f",&radius);
+       area = 3.14 * radius * radius;
+       printf("area of circle:%f",area);
+
+     }
+---->
+     OUTPUT=Enter radius of circle
+            2
+            area of circle:12.560000
+--------------------------------------------------------------------------------------------------------
+  Q5-
+
+     #include<stdio.h>
+     #include<string.h>
+     int main()
+     {
+       char a[50];
+       int length;
+       printf("Enter a string to calculate its length\n");
+       //scanf("%d",&a);
+       gets(a);
+       length= strlen(a);
+       printf("length of the string = %d",length);
+      return 0;
+     }
+---->
+    OUTPUT=Enter a string to calculate its length
+           sharim
+           length of the string = 6
+
+--------------------------------------------------------------------------------------------------------
+
+ Q6-
+
+     #include<stdio.h>
+     int main()
+     {
+        printf("\"Hello , Sharim Shaikh\"");
+        return 0;
+  
+     }
+
+---->
+     OUTPUT="Hello , Sharim Shaikh"
+
+--------------------------------------------------------------------------------------------------------
+Q7-
+   
+     #include<stdio.h>
+     int main()
+     {
+       printf("\"%%d\"");
+       return 0;
+     }
+---->
+     OUTPUT="%d"
+
+--------------------------------------------------------------------------------------------------------
+Q8-
+
+     #include<stdio.h>
+     int main()
+     {
+       printf("\"\\n\"");
+       return 0;
+     }
+---->
+     OUTPUT="\n"
+--------------------------------------------------------------------------------------------------------  
+Q9-
+
+     #include<stdio.h>
+     int main()
+     {
+       printf("\"\\\\\"");
+       return 0;
+     }  
+
+ --->
+     OUTPUT="\\" 
+
+--------------------------------------------------------------------------------------------------------       
+  Q10-
+     
+       #include<stdio.h>
+       int main()
+       {
+          int DD=27;
+          int  const MM=07;
+          int YYYY=2022;
+          int date=DD/MM/YYYY;
+          printf("Enter date DD/MM/YYYY format:");
+          scanf("%d%d%d",&DD,&MM,&YYYY);
+          printf("Day-%d,Month-%d,Year-%d:",DD,MM,YYYY);
+          return 0;
+
+       }         
+---->
+     OUTPUT=  Enter date DD/MM/YYYY format:27/11/2022
+              Day-27,Month-7,Year-2022:   
+                     
+--------------------------------------------------------------------------------------------------------               
+Q11-
+ 
+       #include<stdio.h>
+       int main()
+       {
+          int HH,MM;
+          printf("Enter time (in HH:MM) ");
+          scanf("%d:%d",&HH,&MM);
+          printf("%d hour and %d minute ",HH,MM);
+          return 0;
+
+       }    
+  ---->         
+       OUTPUT= Enter time (in HH:MM) 11:25
+             11 hour and 25 minute    
+--------------------------------------------------------------------------------------------------------     
+Q11-
+
+      #include<stdio.h>
+      int main()
+      {
+        int x = printf("ineuron");
+        printf("%d",x);
+        return 0;
+     
+      }    
+
+---->       
+     OUTPUT= ineuron7  
+            
+--------------------------------------------------------------------------------------------------------            
+                
+             
+               
+                  
+                  
+                     
+                 
+               
+                  
+              
+                   
+                
+                 
+             
+                 
