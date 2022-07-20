@@ -121,7 +121,7 @@ int main()
     int num,r;
     printf("enter any number");
     scanf("%d",&num);
-    r=num&1;
+    r=num%10;
     printf("the position of first 1 in LSB is:%d",r);
     return 0;
 
